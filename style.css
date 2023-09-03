@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url('./business-team-meeting-boardroom.jpg');
+    background-image: url('./business-team-meeting-boardroom.jpg'); /* Replace 'background-image.jpg' with your image path */
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -14,11 +14,11 @@ body {
 
 .container {
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.9); 
+    background-color: rgba(255, 255, 255, 0.6);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-    width: 80%; 
+    width: 80%;
     max-width: 600px;
 }
 
@@ -26,6 +26,11 @@ h1 {
     font-size: 32px;
     margin-bottom: 20px;
     color: #3498db;
+}
+
+/* Apply styles to the Select All checkbox */
+#selectAll {
+    margin-bottom: 10px;
 }
 
 .add-task {
@@ -94,4 +99,12 @@ h1 {
 
 .delete:hover {
     background-color: #2980b9;
+}
+
+/* Style task count and completed count elements */
+#task-count,
+#completed-count {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
 }
