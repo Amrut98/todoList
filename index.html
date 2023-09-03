@@ -3,16 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <title>Todo List App</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Todo List</title>
 </head>
 <body>
     <div class="container">
-        <h1>Todo List</h1>
-        <input type="text" id="task" placeholder="Enter a task">
-        <button id="addTask">Add Task</button>
-        <ul id="taskList"></ul>
+        <h1>My Todo List</h1>
+        <div class="add-task">
+            <input type="text" class="task-input" placeholder="Add a new task">
+            <button class="add-button">Add</button>
+        </div>
+        <ul class="task-list"></ul>
     </div>
-    <script src="index.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
